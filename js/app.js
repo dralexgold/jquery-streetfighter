@@ -32,7 +32,7 @@ function playGame() {
 
   $(document).keydown(function(e) {
     if (e.keyCode == 88) {
-      $('.ryu-action').hide();
+      $('.ryu-still').hide();
       $('.ryu-cool').show();
     }   
   }).keyup(function(e) {
